@@ -1,0 +1,17 @@
+{
+    "contents" : "lilifslkjadd2 <- function(x, y){\n  x+y\n}\n\nabove10 <- function (x){\n  use <- x < 10\n  x[use]\n}\n\nabove <- function(vet, n = 10){\n  use <- vet < n\n  x[use]\n}\n\nfunctionmean <- function (data, removeNA = TRUE){\n    \n  nc <- ncol(data);\n  \n  means <- numeric(nc);\n  \n  for(i in 1:nc){\n    means[i] <- mean(data[,i], na.rm = removeNA);\n  }\n  means\n}\n\n\nminimo <- function(data){\n  \n  nc <- ncol(data)\n  nr <- nrow(data);\n  \n  mins <- numeric(nc);\n  \n  for(i in 1:nc){\n    for(j in 1:nr){\n      \n      #if(mins[j] <= data[i,j]){\n       # mins[i] <- data[i,j];\n      #} \n      print(data[i,j]);\n    }\n  }\n  mins\n}\n\n\n\n\nminvet <- function (data){\n  \n  cr  = nrow(data)\n  \n  for(i in 1:cr){\n    print(data[i])\n  }\n}\n\n",
+    "created" : 1440958345974.000,
+    "dirty" : true,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1783116015",
+    "id" : "A1C7272F",
+    "lastKnownWriteTime" : 1440972703,
+    "path" : "C:/Users/Anselmo/Dropbox/Doutorado/2015/PUCPR/estatistica_nao_parametrica/R_estudo/funcoes.R",
+    "project_path" : "funcoes.R",
+    "properties" : {
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "type" : "r_source"
+}
