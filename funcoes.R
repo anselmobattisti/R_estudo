@@ -76,11 +76,14 @@ facumulada <- function(data){
     vetfac[i] <- fac;
   }
   # concatenate 2 vectors in a frame
-  ret <- data.frame(a,vetfac, vetac);
-  names(ret)[1] <- "Value"
-  names(ret)[2] <- "Accumulated"
-  names(ret)[3] <- "Frequency Accumulated"
-  
+  ret <- data.frame(b, vetac, a,vetfac);
+  names(ret)[1] <- "N."
+  names(ret)[2] <- "N. Accumulated"
+  names(ret)[3] <- "P."
+  names(ret)[4] <- "P. Accumulated"
+  cat("Elements \n")
+  cat("Total :", length(data),"\n")
+  cat("Sum :", sum(data),"\n")
   ret
 }
 
