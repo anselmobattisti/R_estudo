@@ -1,6 +1,6 @@
 # R_estudo
 
-Those ares some functions  in R who help during data analysys.
+Those are some functions in R who help during data analysis.
 
 ## facumulada
 
